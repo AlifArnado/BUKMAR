@@ -69,7 +69,7 @@
                     <a href="#"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Dashboard</a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Data Barang</a>
+                    <a href="?page=data_barang"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Data Barang</a>
                 </li>
                 <li>
                     <a href="#"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>Data Transakasi</a>
@@ -95,7 +95,13 @@
             <div class="container-fluid">
                <div class="row">
                   <div class="col-lg-12">
-							<!-- bagian content -->
+							   <!-- bagian content -->
+                        <?php
+                           $page = @$_GET['page'];
+                           if ($page == "data_barang") {
+                              include 'ad_content_handle/data_barang.php';
+                           }
+                         ?>
                   </div>
                </div>
             </div>
