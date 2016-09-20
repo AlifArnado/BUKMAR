@@ -21,11 +21,9 @@ class Welcome extends CI_Controller {
 
 	public function __construct() {
 		parent::__construct();
-		$this->load->helper('url');
 	}
 
-	public function index()
-	{
-		$this->load->view('admin_handle/admin_index');
+	public function index() {
+		$this->load->view('home_view');
 	}
 }
