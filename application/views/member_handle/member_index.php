@@ -4,16 +4,16 @@
    <meta charset="utf-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <title>Administrator</title>
-   <link rel="stylesheet" href="<?php echo base_url("node_modules/bootstrap/dist/css/bootstrap.min.css"); ?>">
-   <link rel="stylesheet" href="<?php echo base_url("node_modules/material/dist/css/material.min.css"); ?>">
-   <link rel="stylesheet" href="<?php echo base_url("node_modules/material/dist/css/ripples.min.css"); ?>">
-   <link rel="stylesheet" href="<?php echo base_url("node_modules/css/style.css"); ?>">
+   <link rel="stylesheet" href="<?php echo base_url("assets/node_modules/bootstrap/dist/css/bootstrap.min.css"); ?>">
+   <link rel="stylesheet" href="<?php echo base_url("assets/node_modules/material/dist/css/material.min.css"); ?>">
+   <link rel="stylesheet" href="<?php echo base_url("assets/node_modules/material/dist/css/ripples.min.css"); ?>">
+   <link rel="stylesheet" href="<?php echo base_url("assets/node_modules/css/style.css"); ?>">
    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
 
    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-   <script type="text/javascript" src="<?php echo base_url("node_modules/bootstrap/js/dropdown.js"); ?>"></script>
-   <script type="text/javascript" src="<?php echo base_url("node_modules/material/dist/js/ripples.min.js"); ?>"></script>
-   <script type="text/javascript" src="<?php echo base_url("node_modules/material/dist/js/material.min.js"); ?>"></script>
+   <script type="text/javascript" src="<?php echo base_url("assets/node_modules/bootstrap/js/dropdown.js"); ?>"></script>
+   <script type="text/javascript" src="<?php echo base_url("assets/node_modules/material/dist/js/ripples.min.js"); ?>"></script>
+   <script type="text/javascript" src="<?php echo base_url("assets/node_modules/material/dist/js/material.min.js"); ?>"></script>
   <script type="text/javascript">
       $.material.init();
    </script>
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <div class="box-profil">
-                     <img src="<?php echo base_url("image/admin.png"); ?>" alt="..." class="img-circle " width="100" height="100"><br>
+                     <img src="<?php echo base_url("assets/image/admin.png"); ?>" alt="..." class="img-circle " width="100" height="100"><br>
                      <p class="nama_profile">( Member Name / ID_MEMBER )</p>
                   </div>
                 </li>
