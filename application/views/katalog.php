@@ -87,7 +87,7 @@
         <div id="sidebar-wrapper">
             <div class="panel panel-default">
                <div class="panel-body">
-                  <img src="<?php echo base_url("image/icon.jpg"); ?>" class="img-responsive" alt="Image">
+                  <img src="<?php echo base_url("assets/image/icon.jpg"); ?>" class="img-responsive" alt="Image">
                   <input type="text" name="" id="input" class="form-control" value="" required="required" title="" placeholder="Aku mau belanja...">
                   <!-- <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12"> -->
                      <div class="form-group">
@@ -114,7 +114,7 @@
                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                   <div class="alert alert-info">
                      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                     <img src="<?php echo base_url("image/delivery-order.jpg"); ?>" class="img-responsive" alt="Image" height="80" width="280">
+                     <img src="<?php echo base_url("assets/image/delivery-order.jpg"); ?>" class="img-responsive" alt="Image" height="80" width="280">
                   </div>
                </div>
                <div class="row">
@@ -126,7 +126,7 @@
                         <a href="#" title="">
                      		<div class="panel panel-default">
                      			<div class="panel-body">
-                     				<img src="<?php echo base_url("image/masako.jpg"); ?>" class="img-responsive" alt="Image" height="140" width="180">
+                     				<img src="<?php echo base_url("assets/image/masako.jpg"); ?>" class="img-responsive" alt="Image" height="140" width="180">
                      				<p align="center">Bumbu Masako 1 Pack</p>
                      				<p align="center" style="font-family: sans-serif; font-weight: bold;">Rp. 5.000.00,-</p>
                      			</div>

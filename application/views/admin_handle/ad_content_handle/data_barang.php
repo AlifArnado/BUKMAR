@@ -30,7 +30,7 @@
 
                   <div class="form-group">
                      <label >Deskripsi</label>
-                     <textarea name="deskripsi" id="input" class="form-control" rows="3" required="required"></textarea>
+                     <textarea name="deskripsi" id="input" class="form-control" rows="5" required="required"></textarea>
                   </div>
                   <div class="form-group">
                      <label>Foto Barang</label>
