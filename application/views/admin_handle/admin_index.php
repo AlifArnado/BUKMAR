@@ -66,22 +66,22 @@
                   </div>
                 </li>
                 <li>
-                    <a href="#"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Dashboard</a>
+                    <a href="?page=dasboard"> <span class="glyphicon glyphicon-home" aria-hidden="true"></span> Dashboard</a>
                 </li>
                 <li>
                     <a href="?page=data_barang"><span class="glyphicon glyphicon-tasks" aria-hidden="true"></span> Data Barang</a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>Data Transakasi</a>
+                    <a href="?page=data_transaksi"><span class="glyphicon glyphicon-transfer" aria-hidden="true"></span>Data Transakasi</a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Kategori Barang</a>
+                    <a href="?page=kategori_barang"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span>Kategori Barang</a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>Stok Barang</a>
+                    <a href="?page=stok_barang"><span class="glyphicon glyphicon-qrcode" aria-hidden="true"></span>Stok Barang</a>
                 </li>
                 <li>
-                    <a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Profil</a>
+                    <a href="?page=profil"><span class="glyphicon glyphicon-user" aria-hidden="true"></span>Profil</a>
                 </li>
                 <li>
                     <a href="#"><span class="glyphicon glyphicon-off" aria-hidden="true"></span>Logout</a>
@@ -99,7 +99,17 @@
                         <?php
                            $page = @$_GET['page'];
                            if ($page == "data_barang") {
-                              include 'ad_content_handle/data_barang.php';
+                              include 'ad_content_handle/data_barang_view.php';
+                           } else if ($page == "dasboard") {
+                              include 'ad_content_handle/dasboard_view.php';
+                           } else if ($page == "data_transaksi") {
+                              include 'ad_content_handle/data_transaksi_view.php';
+                           } else if ($page == "kategori_barang") {
+                              include 'ad_content_handle/kategori_barang_view.php';
+                           } else if ($page == "stok_barang") {
+                              include 'ad_content_handle/stok_barang_view.php';
+                           } else if ($page == "profil") {
+                              include 'ad_content_handle/profil_view.php';
                            }
                          ?>
                   </div>
